@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+
+.createPost {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #edf5f5;
+
+        .img_place {
+            .img_1_1 {
+                margin-left: 25px;
+                width: 200px;
+                height: 175px;
+
+                @media (max-width: 900px) {
+                    margin-left: 15px;
+                    width: 200px;
+                    height: 175px;
+                }
+            }
+        }
+
+        .text {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .p1 {
+                font-family: "Patua One", cursive;
+                font-size: 24px;
+            }
+
+            .p2 {
+                font-family: "Patua One";
+                margin-top: -10px;
+            }
+
+            .p {
+                font-family: "Patua One";
+            }
+        }
+    }
+
+    .container {
+        width: 60%;
+
+        @media (max-width: 900px) {
+            width: 96%;
+            margin-left: 15px;
+        }
+
+        margin-left: 25px;
+
+        .p20 {
+            font-family: "Patua One";
+            font-size: 20px;
+        }
+
+        .input {
+            input {
+                margin-top: 5px;
+            }
+        }
+
+        .age {
+            .p21 {
+                font-family: "Patua One";
+                font-size: 20px;
+            }
+        }
+
+        .gender {
+            display: flex;
+            flex-direction: column;
+
+            .p22 {
+                font-family: "Patua One";
+                font-size: 20px;
+            }
+
+            input {
+                margin-right: 8px;
+                cursor: pointer;
+            }
+
+            label {
+                font-family: "Patua One";
+                font-size: 14px;
+                color: #3c0de9;
+            }
+        }
+
+        .height {
+            .p23 {
+                font-family: "Patua One";
+                font-size: 20px;
+            }
+        }
+
+        .job_type {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            .p5 {
+                font-family: "Patua One", cursive;
+                font-size: 20px;
+            }
+        }
+
+        .skin_tone {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            .p5 {
+                font-family: "Patua One", cursive;
+                font-size: 20px;
+            }
+        }
+
+        .talents {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            .p5 {
+                font-family: "Patua One";
+                font-size: 20px;
+            }
+
+            .p6 {
+                font-family: "Patua One";
+                font-size: 14px;
+                color: #532a2a;
+                margin-top: -12px;
+                margin-left: 4px;
+            }
+        }
+
+        .languages {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            .p8 {
+                margin-top: 45px;
+                font-family: "Patua One", cursive;
+                font-size: 20px;
+            }
+
+            .p6 {
+                font-family: "Patua One";
+                font-size: 14px;
+                color: #532a2a;
+                margin-top: -12px;
+                margin-left: 4px;
+            }
+        }
+
+        .city {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            .p9 {
+                font-family: "Patua One", cursive;
+                font-size: 20px;
+                margin-top: 45px;
+            }
+
+            .p6 {
+                font-family: "Patua One", cursive;
+                font-size: 20px;
+            }
+
+            .p7 {
+                margin-top: -4px;
+                color: #1f1111;
+            }
+        }
+
+        .wechat {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-top: 20px;
+            z-index: 1;
+
+            .p13 {
+                font-family: "Patua One", cursive;
+                font-size: 20px;
+            }
+        }
+
+        .heart {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-bottom: 20px;
+
+            .p14 {
+                font-family: "Patua One", cursive;
+                font-size: 20px;
+            }
+
+            .Heyy {
+                display: flex;
+                margin-left: 50px;
+                cursor: pointer;
+                width: 60px;
+                height: 35px;
+                border: 2px solid #dadadb;
+
+                .heartt {
+                    width: 100%;
+                    height: 100%;
+                    color: red;
+                }
+
+                .hearttt {
+                    width: 100%;
+                    height: 100%;
+                    color: #dfd3d3;
+                }
+            }
+        }
+
+        .actions {
+            display: flex;
+            flex-direction: row;
+
+            button {
+                height: 32px;
+                margin-top: 10px;
+                margin-left: 35px;
+                background-color: #5465ff;
+                border: 2px solid #5465ff;
+                border-radius: 5px;
+                color: #fff;
+                font-family: "Patua One";
+                font-size: 14px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.style-chooser {
+    width: 300px;
+    height: 26px;
+}
+
+.invisible {
+    color: red;
+    opacity: 0 !important;
+}
+
+.loader {
+    text-align: center;
+    color: #bbbbbb;
+}
+
+.icon {
+    color: red;
+    width: 10px;
+    margin-left: 5px;
+}
+
+input[type="text"],
+[type="number"] {
+    width: 300px;
+    height: 26px;
+    border: 2px solid #c9ccda;
+    outline: none;
+
+    &:focus {
+        border: 2px solid #3652cc;
+    }
+
+    &:hover {
+        border: 2px solid #3652cc;
+    }
+}
